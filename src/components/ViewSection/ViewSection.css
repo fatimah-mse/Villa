@@ -17,12 +17,12 @@
 .FM-sec-2 .FM-h2 {
     display: block;
     margin: 15px auto;
-    width: 33%;
+    width: 45%;
     text-align: center;
     color: var(--color-white);
 }
 @media screen and (max-width:768px) {
     .FM-sec-2 .FM-h2 {
-        width: 100%;
+        width: 100% !important;
     }
 }

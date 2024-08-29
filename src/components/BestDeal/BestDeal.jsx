@@ -3,6 +3,7 @@ import './BestDeal.css'
 import { FilterationData } from '../../Data/FilterationData'
 import ScheduleBtn from '../ScheduleBtn/ScheduleBtn'
 import FilterBtn from '../FilterBtn/FilterBtn'
+import Title from '../Title/Title'
 
 const btns = [
     {
@@ -34,10 +35,7 @@ export default function BestDeal() {
     return (
         <section className='FM-best-deal FM-padding'>
             <div className='FM-deal-btns'>
-                <div className='FM-deal'>
-                    <h6 className='FM-h6'>| Best Deal</h6>
-                    <h2 className='FM-h2'>Find Your Best Deal Right Now!</h2>
-                </div>
+                <Title Class={'FM-deal'} h6={'Best Deal'} h2={'Find Your Best Deal Right Now!'} />
                 <div className='FM-btn'>
                     {btns.map((e,index) => {
                         return (

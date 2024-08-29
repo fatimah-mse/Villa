@@ -18,19 +18,6 @@
 .FM-padding {
   padding: 0 140px;
 }
-.FM-h2 {
-  text-transform: capitalize;
-  font-size: 2.6rem;
-  font-weight: 700;
-  color: var(--color-dark);
-}
-.FM-h6 {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.9375rem;
-  color: var(--color-red);
-  margin-bottom: 25px;
-}
 .FM-map {
   width: 100%;
   height: 500px;
@@ -67,9 +54,6 @@ footer{
     padding: 40px 40px;
     font-size: 1.2rem;
   }
-  .FM-h2 {
-    font-size: 2.5rem;
-  }
 }
 @media screen and (max-width:576px) {
   .FM-padding {
@@ -77,8 +61,5 @@ footer{
   }
   footer {
     padding: 40px 20px;
-  }
-  .FM-h2 {
-    font-size: 2.2rem;
   }
 }

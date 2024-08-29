@@ -35,7 +35,7 @@
     color: var(--color-orange);
 }
 .FM-carousel-h2-nd {
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--color-white);
@@ -71,16 +71,15 @@
 }
 @media screen and (max-width:992px) {
     .FM-carousel-h2-nd {
-        font-size: 55px;
+        font-size: 40px;
         line-height: 60px;
     }
 }
 @media screen and (max-width:768px) {
     .FM-Hero , .FM-slide{
-        height: calc(100vh - 140px);
+        height: calc(100vh - 174px);
     }
     .FM-carousel-h2-nd {
-        font-size: 40px;
         width: 100%;
     }
 }

@@ -3,13 +3,13 @@ import './ContactSection.css'
 import Form from '../Form/Form'
 import FeaturedComponent from '../FeaturedComponent/FeaturedComponent'
 import { data } from '../../Data/ContactData'
+import Title from '../Title/Title'
 
 export default function ContactSection() {
     return (
         <section className='FM-padding FM-contact-sec'>
             <div>
-                <h6 className='FM-h6'>| Contact Us</h6>
-                <h2 className='FM-h2'>Get In Touch With Our Agents</h2>
+                <Title Class={'FM-w-45'} h6={'Contact Us'} h2={'Get In Touch With Our Agents'} />
                 <p className='FM-desc'>When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS templates on our website. If you need more information, please contact us.</p>
                 {data.map((e,index) => {
                     return (

@@ -5,6 +5,7 @@ import featured from '../../images/featured.jpg'
 import Accordion from '../Accordion/Accordion'
 import { InfoData } from '../../Data/InfoData'
 import FeaturedComponent from '../FeaturedComponent/FeaturedComponent'
+import Title from '../Title/Title'
 
 export default function FeaturedSection() {
 
@@ -17,9 +18,7 @@ export default function FeaturedSection() {
                 <img src={featured} />
             </div> 
             <div className='FM-div-40'>
-                <h6 className='FM-h6'>| Featured</h6>
-                <h2 className='FM-h2'>Best Appartment & Sea View</h2>
-                
+                <Title h6={'Featured'} h2={'Best Appartment & Sea View'} />
                 <div className='FM-accordion'>
                     {AccordionData.map((e, i) => {
                         return (
@@ -33,7 +32,7 @@ export default function FeaturedSection() {
                                 paragraph2={e.paragraph2}
                                 index={i}
                             />
-                                    )
+                        )
                     })}
                 </div>
             </div> 

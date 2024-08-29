@@ -15,11 +15,20 @@
     color: var(--color-orange);
 }
 .FM-accordion-desc {
-    padding: 15px 20px;
     font-size: 1.0625rem;
-    line-height: 25px;
+    transition: 0.4s ease-in-out;
 }
-
+.FM-desc-shown {
+    padding: 15px 20px;
+    height: max-content;
+    opacity: 1;
+}
+.FM-desc-hidden {
+    position: relative;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
+}
 .FM-span-blue {
     color: var(--color-blue);
 }

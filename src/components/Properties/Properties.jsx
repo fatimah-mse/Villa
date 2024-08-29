@@ -2,12 +2,12 @@ import React from 'react'
 import './Properties.css'
 import { CardData } from '../../Data/CardData'
 import Card from '../Card/Card'
+import Title from '../Title/Title'
 
 export default function Properties() {
   return (
     <section className='FM-padding FM-properties'>
-        <h6 className='FM-h6'>| Properties</h6>
-        <h2 className='FM-h2'>We Provide The Best Property You Like</h2>
+      <Title h6={'Properties'} h2={'We Provide The Best Property You Like'} />
         <div className='FM-properties-cards'>
             {CardData.slice(0, 6).map((e, index) => {
                 return (

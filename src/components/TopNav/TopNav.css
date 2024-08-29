@@ -31,7 +31,7 @@
 }
 @media screen and (max-width:768px) {
     .FM-top-nav {
-        height: 66px;
+        height: 100px;
     }
     .FM-top-nav a {
         font-size: 0.8rem;
