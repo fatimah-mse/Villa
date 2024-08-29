@@ -26,3 +26,8 @@
     color: var(--color-white);
     line-height: 70px;
 }
+@media screen and (max-width:576px) {
+    .FM-sub-hero h2 {
+        font-size: 35px;
+    }
+}
