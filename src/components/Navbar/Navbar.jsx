@@ -40,6 +40,7 @@ export default function Navbar() {
                     return (
                         <NavLink key={index}
                             to={e.href}
+                            onClick={() => NavListShow(false)}
                             className={({ isActive }) =>
                                 `FM-nav-${header ? 'dark-mood' : 'light-mood'} ${isActive ? 'FM-active-link' : ''} FM-list-item`}
                             >
