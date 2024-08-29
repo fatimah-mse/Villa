@@ -1,0 +1,8 @@
+.FM-category-span {
+    width: max-content;
+    font-weight: 600;
+    color: var(--color-dark);
+    padding: 10px;
+    border-radius: 6px;
+    background-color: var(--color-number-card);
+}

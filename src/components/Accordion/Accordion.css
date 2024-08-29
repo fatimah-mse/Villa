@@ -1,0 +1,28 @@
+.FM-accordion {
+    background-color: var(--color-gray);
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 100%;
+}
+.FM-accordion .FM-Question {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--color-border);
+}
+.FM-accordion-show {
+    color: var(--color-orange);
+}
+.FM-accordion-desc {
+    padding: 15px 20px;
+    font-size: 1.0625rem;
+    line-height: 25px;
+}
+
+.FM-span-blue {
+    color: var(--color-blue);
+}
+.FM-span-pink {
+    color: var(--color-pink);
+}

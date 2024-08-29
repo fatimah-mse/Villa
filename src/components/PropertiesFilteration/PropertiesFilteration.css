@@ -1,0 +1,25 @@
+.FM-Properties {
+    padding-top: 80px !important;
+    padding-bottom: 120px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FM-Properties .FM-btn{
+    padding: 0;
+}
+.FM-Properties .FM-properties-cards {
+    margin: 30px 0 !important;
+}
+.FM-Properties .FM-numbers button {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-weight: 700;
+    padding: 0;
+    margin: 20px 6px 0 6px;
+}
+.FM-active-num {
+    background-color: var(--color-orange) !important;
+    color: var(--color-white) !important;
+}

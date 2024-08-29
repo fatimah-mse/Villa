@@ -1,0 +1,17 @@
+.FM-contact {
+    margin: -250px 0 80px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.FM-contact-info {
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:768px) {
+    .FM-contact-info,  .FM-contact-info-card{
+        width: 100%;
+    }
+}

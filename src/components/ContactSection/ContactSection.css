@@ -1,0 +1,27 @@
+.FM-contact-sec {
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.FM-contact-sec div:nth-child(1) {
+    width: 50%;
+}
+.FM-contact-sec .FM-h2 {
+    width:60%;
+}
+.FM-contact-sec .FM-desc {
+    margin: 40px 0;
+}
+.FM-contact-sec .FM-frame {
+    width: 100%;
+}
+.FM-contact-sec .FM-map{
+    margin-top: 100px;
+}
+@media screen and (max-width:768px) {
+    .FM-contact-sec div:nth-child(1) , .FM-contact-sec .FM-h2{
+        width: 100%;
+    }
+}
