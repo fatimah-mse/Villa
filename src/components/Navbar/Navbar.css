@@ -72,6 +72,7 @@
     }
     .FM-list-item {
         display: flex;
+        margin-right: 0;
         margin-bottom: 20px;
     }
     .FM-nav-btn {

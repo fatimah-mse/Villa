@@ -23,6 +23,6 @@ export default function Accordion({question , firstWord , strong , paragragh1 , 
                 <span className={spanClass}>{spanWord}</span>
                 {paragraph2}
             </p>
-            </div>
+        </div>
     )
 }
